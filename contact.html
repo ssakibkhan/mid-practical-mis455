@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARDY TECH | Contact Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <div class="brand-logo">HARDY <span>TECH</span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Get in Touch with HARDY TECH</h1>
+
+        
+        <p>Need guidance choosing compatible hardware components, tracking an enterprise freight consignment, or requesting technical RMA support? Our dedicated customer engineers are ready to assist you.</p>
+
+        
+        <p>Submit your message through the inquiry terminal below or visit our local distribution hub during scheduled service hours. We review and resolve queries within one business turnaround day.</p>
+
+        <div class="contact-layout">
+            <section class="contact-form-section">
+                <h2>Direct Message Terminal</h2>
+                <form id="contactForm" class="contact-form" onsubmit="handleContactForm(event)">
+                    <div class="form-group">
+                        <label for="userName">Full Name *</label>
+                        <input type="text" id="userName" placeholder="e.g. Sadman Sakib Khan" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userEmail">Institutional / Personal Email *</label>
+                        <input type="email" id="userEmail" placeholder="e.g. 2221331@iub.edu.bd" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userMessage">Technical Inquiry *</label>
+                        <textarea id="userMessage" rows="4" placeholder="Detail your product question or service request..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Submit Ticket</button>
+                </form>
+            </section>
+
+            <section class="contact-details-section">
+                <h2>Corporate Headquarters</h2>
+                <p><strong>Physical Address:</strong> Plot 16, Block B, Bashundhara R/A, Dhaka 1229, Bangladesh</p>
+                <p><strong>Direct Line:</strong> +880 (2) 840-1645</p>
+                <p><strong>Support Channel:</strong> support@hardytech.io</p>
+                <p><strong>Operating Hours:</strong> Sunday – Thursday: 09:00 AM – 05:00 PM</p>
+
+                
+                <div class="contact-gallery">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" alt="Executive Suite">
+                    <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=400" alt="Assembly Lab">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 HARDY TECH Ltd. All Rights Reserved.</p>
+        <p>Course: MIS 455 Midterm Practical | Student: Sadman Sakib Khan (ID: 2221331)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
