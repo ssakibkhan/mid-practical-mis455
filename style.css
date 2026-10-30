@@ -232,4 +232,46 @@ footer p {
 }
 
 
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    background-color: #38bdf8;
+    color: #0f172a;
+    box-shadow: 0 2px 8px rgba(56, 189, 248, 0.4);
+}
+
+.btn-primary {
+    background-color: #0284c7;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.6rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0369a1;
+    transform: translateY(-2px);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+@media (max-width: 768px) {
+    .nav-menu {
+        gap: 0.5rem;
+    }
+    .flex-showcase, .contact-layout {
+        flex-direction: column;
+    }
+}
+
+
 }
